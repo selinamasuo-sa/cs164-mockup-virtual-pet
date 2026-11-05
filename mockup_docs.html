@@ -1,0 +1,373 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	<title>Mockup Documentation | Selinam Asuo</title>
+	<link rel="icon" type="image/x-icon" href="/~sa4264/pestdocsimg/vibing.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Momo+Trust+Display&family=Stack+Sans+Notch&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+</head>
+<style>
+	<!-- Reserved for all the custom fonts, colors, etc, that I want to use -->
+
+	body {
+		font-family: "TikTok Sans", sans-serif;
+		font-size: 20px;
+	}
+	h1 {
+		font-family: "Stack Sans Notch", sans-serif;
+		font-size: 60px;
+		font-weight: 600;
+	
+	}
+	h2 {
+		font-family: "Stack Sans Notch", Courier, monospace;
+		font-size: 36px;
+		font-weight: 600;
+	}
+	p {
+		font-family: "TikTok Sans", Helvetica, sans-serif;
+		font-size: 20px;
+	}
+	ul {
+		font-size: 18px;
+	}
+	li {
+		font-family: "TikTok Sans", Helvetica, sans-serif;
+	}
+	a:visited, a:link {
+		color: #fffdd6;
+	}
+	a:hover {
+		color: #00ff9c;
+	}
+	table, th, td {
+		border: 1px solid gray;
+	}
+	th, td {
+		padding: 10px;
+	}
+	th {
+		font-family: "JetBrains Mono", Courier, monospace;
+		font-size: 20px;
+		background-color: #00ff9c;
+		color: black;
+	}
+	td {
+		font-family: "TikTok Sans", sans-serif;
+		font-size: 16px;
+		background-color: #06261a;
+		color: #fffdd6;
+	}
+	footer {
+		font-family: "Stack Sans Notch", monospace;
+		font-style: oblique;
+		text-align: center;
+		font-size: 40px;
+		font-weight: 300;
+		text-shadow: 2px 1px 2px #a1a1a1;
+		background-color: #ffffff;
+		color: #000000;
+		padding: 10px 10px;
+	}
+	#list-head {
+		color: #00ff9c;
+	}
+	#act {
+		background-color: #00ff9c;
+		color: #000000;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 800;
+		font-family: "JetBrains Mono", Courier, monospace;
+		padding: 14px;
+	}
+	#timers {
+		line-height: 200%;
+	}
+	#sub {
+		line-height: normal;
+		font-size: 17px;
+		color: #eaeaea;
+	}
+	#footer a:visited, #footer a:link {
+		color: #000000;
+	}
+	#footer a:hover {
+		color: #00ff9c;
+		text-shadow: 3px 2px 3px #007849;
+		font-weight: 450;
+	}
+</style>
+<body style="background-color: black; color: white;">	
+	<h1>This is Mockup!</h1>
+
+	<!-- ROTATING MOCKUP GIF -->	
+	<a href="/~sa4264/mockup_pet.html">
+		<img src="/~sa4264/pestdocsimg/mockupstates.gif" alt="A GIF displaying all of Mockup's States" width=628>
+	</a>
+
+	<!-- INTRO -->
+	
+	<h2>Setting the Vibes</h2>
+	<p>Mockup originated from a graphic design project that I (Selinam Asuo) worked on in my sophomore year of high school. The project aimed to highlight various devices that represented advancements in technology throughout the past few decades. After working on the project for a month, I entered it into the Pennsylvania Media and Design Competition in 2023, and got third place in the High School category in the Philadelphia region!
+	From there, I was inspired to continue my graphic design journey by making various posters and promotional videos for the afterschool clubs I was apart of, like robotics, Model UN, class council, and prom committee.</p>
+	<p>To retain the legacy of the initial design project from sophomore year, I reimagined Mockup as the face of 
+	<a href="https://selinamasuo.wixsite.com/media/portfolio">my website</a>
+	 and promotional branding. He is mostly based on the Pokemon Jigglypuff, but also has mythical horns and a pair of headphones to represent his divine and (typically) laid back nature. As seen and described in this project (and through Mockup's eyes), things can get a little zany. If you want to see more of Mockup, the design project he originated from, and my other graphic design related works, check out my website linked above!</p>
+	<p>Anyway, Mockup has gone through hell and back in the very few years that he has been around for. From restless nights in the studio trying to make props for the annual homecoming dance, to designing posters for clubs day in and day out, this guy really never gets a break.
+	Worst of it all, he really has no one that he can relate to since his best friends that he used to gamble with every other weekend were murdered before his very eyes by a mysterious dragon-like figure who lost all of his money that he was going to pay off his student debt with. He watched as their blood soaked into their clothes.
+	<br>
+	Ever since that fateful day, Mockup has never been the same, and it is your job to take care of him by fulfilling his basic needs, keeping him alive, and evaluating his mental health.</p>
+	
+	<h2>Mom Said It's My Turn on the Game!</h2>
+	<p>As of right now, this project is in a playable beta testing state. If you're the kind of person who likes to just dive into things and figure things out as you go, you can <a href="https://cs.drexel.edu/~sa4264/mockup_pet.html">play with Mockup here!</a> If you want more details on how Mockup works, feel free to read on and view the actual documentation!</p>
+	
+	<h1>Actual Documentation</h1>
+	
+	<!-- INTERACTION BUTTONS (list) -->
+
+	<h2>Interacting with Mockup</h2>
+	<p>These are the ways that you can interact with Mockup.</p>
+	<ul id="timers">
+		<li>Play: Boosts Mockup's mood, can make him sleepy if he's already Happy. Does not work if he's hungry.</li>
+		<li>Feed: Feeds Mockup whenever he is hungry. Cannot be used otherwise.</li>
+		<li>Sing: Calms Mockup down, boosts his mood, or makes him sleepy. Does not work if he's hungry.</li>
+		<li>Shock: Causes Mockup to become scared or go insane in most states. Can be deadly if he is scared or angry.</li>
+		<li>Lights: Toggles the lights OFF (0) or ON (1). Initialized to ON.</li>
+			<ul id="sub"> 
+				<li>Lights are switched ON if Mockup is Sleepy. As a result, he wakes up vibing or insane.</li>
+				<li>Lights are switched OFF if Mockup is Happy, Vibing, Bored, Scared, or Angry. In the former 4 states, Mockup will be come sleepy. If he is Angry, he can randomly remain angry, or become scared, sleepy, or insane.</li>
+				<li>Lights remain ON if Mockup is Scared or Hungry. You must treat him in other ways in order to progress out of these states.
+				<li style="font-style: oblique;">There is an easter egg if you flicker the lights a certain number of times when Mockup is dead...</li>
+			</ul>
+	</ul>
+	
+	<!-- STATE TABLE -->
+	
+	<h2>Mockup Moods (States)</h2>
+	<p>Mockup can take on 9 different moods depending on a variety of factors. Some are more zany and than others...</p>
+	<table>
+		<tr>
+			<th>Index</th>
+			<th>Mood Name</th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>Vibing</td>
+			<td>Mockup's neutral/relaxed state. He can become hungry and bored in this state.</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Bored</td>
+			<td>Mockup feels neglected. If left in this state for some time, he can become angry, sleepy, insane, or just vibe. He can also get hungry in this state.</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sleepy</td>
+			<td>Mockup feels tired or over-soothed. Can be safely left in this state since he does not get hungry. He can either be woken up by switching the lights (putting him in the neutral state, or possibly making him insane), or via shock (which guarantees insanity).</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Happy</td>
+			<td>Mockup is elated and energetic. Playing with him will most likely keep him happy, but can put him to sleep. Singing to him lulls him to sleep. He can get hungry or bored in this state.</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Hungry</td>
+			<td>Mockup needs to be fed (i.e. most of the other interaction buttons don't work). If he is ignored, he will likely die. If he is shocked, he can stay hungry, but will most likely die.</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>Scared</td>
+			<td>You scared Mockup. You made him recall that his former friends have died and he feels alone. He can become hungry or bored in this state at a slower rate. He can be alleviated by singing to him or playing with him.</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>iNsAnItY</td>
+			<td>Mockup has lost control as he recalls his brutal past. His hunger is chaotic. Any action taken can push him into any other state (including death).</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>Angry</td>
+			<td>Mockup is frustrated and volatile. Singing to him or playing with him makes him vibe or happy. Turning off the lights or shocking him can randomly transition him into a few states. He can become hungry quicker, but bored slower.</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>Dead</td>
+			<td>Mockup is deceased, pretty self explanatory. You have failed as his caretaker. Interactions with him are negligble and he can be "revived" (cloned) by restarting the program.</td>
+		</tr>
+	</table>
+
+	<!-- TIMERS -->
+
+	<h2>Tick Tock Clocks (Timers)</h2>
+	<p>There are quite a few timers associated with this Mockup simulation that are dependent on his feelings and states. This is a list of these timers that may or may not lead into some zany effects:</p>
+	<ul id="timers">
+		<li>Neglect Timer: Runs while Mockup is not being interacted with in the Bored state. After a set amount of time without interaction, Mockup will undergo Neglection Deflection.</li>
+		<li>Hunger Timer: Tracks the amount of time since Mockup was last fed. Starts at a certain value and decrements by a set pattern in specific states. There are some states where the hunger timer pauses, and others where the decrements are sporadic.</li>
+		<li>Starving Timer: Tracks the amount of time Mockup is in the Hungry state. He will die if he's in the Hungry state for a set amount of time.</li>
+		<li>CARDIAC Timer: After being ignored for a set amount of time in the Anger state, Mockups blood pressure rises to extreme levels. As a result, his blood clots, resulting in him falling into a state of CARDIAC arrest and, soon enough, death.</li>
+		<li>Insanity Timer: When Mockup enters the Insanity state, this timer ensues. The duration can last anywhere from 8 to 20 seconds. If the user has not interacted with Mockup by the time this timer expires, then the Insanity Effect will take place.</li>
+	</ul>
+
+	<!-- ADDITIONAL QUIRKYNESS -->
+
+	<h2>Let's Go Gambling! (Random Quirks)</h2>
+	<p>Mockup has some random quirks that are not listed in any of the sections above. These quirks make some of the interactions like a gambling machine in specific states, kinda like Mockup's good old gambling days with his friends before they were killed before his very eyes. Here is a summary of some of the most interesting ones:</p>
+	<ul>
+		<li>Insanity Effect: While in the Insanity state, all actions have warped effects. If the player performs any action (or if the player fails to perform any action before the Insanity Timer runs out), Mockup randomly transitions into any of the other states based on the following probabilities:</li>
+			<ul id="sub">
+				<li>25% chance of Anger</li>
+				<li>20% chance of Sleepiness</li>
+				<li>15% chance of Scaredness</li>
+				<li>15% chance of Vibing</li>
+				<li>10% chance of Death</li>
+				<li>7% chance of Happiness</li>
+				<li>5% chance of Hunger</li>
+				<li>3% chance of Boredom</li>
+			</ul><br>
+		<li>Neglection Deflection: After a set amount of time without interation in the Bored State, Mockup has these set probabilities of transitioning into the following states:</li>
+			<ul id="sub">
+				<li>50% chance of Anger</li>
+				<li>25% chance of Sleepiness</li>
+				<li>15% chance of Insanity</li>
+				<li>10% chance of Vibing</li>
+			</ul><br>
+		<li>Anger Burst: If Mockup is shocked out of the Anger state, he has these set probabilities of transitioning into the following states:</li>
+			<ul id="sub">
+				<li>40% chance of Scaredness</li>
+				<li>40% chance of Insanity</li>
+				<li>30% chance of Death</li>
+			</ul><br>
+		<li>Diffuser Effect: If you toggle the lights (off) while Mockup is in the Anger state, he has these set probabilities of transitioning into the following states:</li>
+			<ul id="sub">
+				<li>50% chance of Scaredness</li>
+				<li>20% chance of Insanity</li>
+				<li>20% chance of Anger</li>
+				<li>10% chance of Sleepiness</li>
+			</ul>
+	</ul>
+	
+	<!-- STATE DIAGRAM -->
+	<h2>Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, ... (State Diagram)</h2>
+	<p>The image below shows the complex finite state machine logic diagram that this project works from. Despite what this subheading suggests, the states refer to Mockup's moods, not the 50 subjectively divided areas of land making up the United States.</p>
+	<p>Clicking on the image will open a PDF version of the diagram that should be easier to look at. The diagram is also out of date at the moment. The tabular format below is most up to date.</p>
+	<a href="/~sa4264/pestdocsimg/machinediagram.pdf">
+		<img src="/~sa4264/pestdocsimg/machinediagram2.png" alt="Mockup Virtual State Machine Diagram" width=1000>
+	</a>
+
+	<!-- OPERATIONAL DESCRIPTION (Tabular) -->
+
+	<h2>Operation Snake Eater (State Table + Operational Description)</h2>
+	<p>The table below attempts to simplify the FSM logic diagram above into an operational description based tabular format that is easier to interpret. This is also the most up-to-date version of the state machine representation as it is the easiest to update on a whim.</p>
+	<p style="font-style: oblique;">Note: Whenever a timer resumes after being paused, the timer starts at 0. Switching between states also resets the respective timers.</p>
+	<table>
+		<tr>
+			<th style="font-weight: 900; font-style: oblique; background-color: #ffffff; color: #06261a;">actions</th>
+			<th>0 - Vibing</th>
+			<th>1 - Bored</th>
+			<th>2 - Sleepy</th>
+			<th>3 - Happy</th>
+			<th>4 - Hungry</th>
+			<th>5 - Scared</th>
+			<th>6 - Insanity</th>
+			<th>7 - Angry</th>
+			<th>8 - Dead</th>
+		</tr>
+		<tr>
+			<td id="act">PLAY</td>
+			<td>3</td>
+			<td>3</td>
+			<td>2</td>
+			<td>3/2 (50/50 split)</td>
+			<td>4</td>
+			<td>3/0 (60/40 split)</td>
+			<td>0/1/2/3/4/5/7/8 (see Insanity Effect)</td>
+			<td>3/0 (50/50 split)</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td id="act">FEED</td>
+			<td>0</td>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>0/3 (50/50 split)</td>
+			<td>5</td>
+			<td>0/1/2/3/4/5/7/8 (see Insanity Effect)</td>
+			<td>7</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td id="act">SING</td>
+			<td>3</td>
+			<td>3</td>
+			<td>2</td>
+			<td>2</td>
+			<td>4</td>
+			<td>3/0 (70/30 split)</td>
+			<td>0/1/2/3/4/5/7/8 (see Insanity Effect)</td>
+			<td>3/0 (60/40 split)</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td id="act">SHOCK</td>
+			<td>5/6 (90/10 split)</td>
+			<td>5/6 (80/20 split)</td>
+			<td>6</td>
+			<td>5/6 (90/10 split)</td>
+			<td>8/4 (70/30 split)</td>
+			<td>6/8 (55/45 split)</td>
+			<td>0/1/2/3/4/5/7/8 (see Insanity Effect)</td>
+			<td>8/6/5 (see Anger Burst)</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td id="act">LIGHTS</td>
+			<td>OFF -> 2</td>
+			<td>OFF -> 2</td>
+			<td>ON -> 0/6 (75/25 split)</td>
+			<td>OFF -> 2</td>
+			<td>ON -> 4</td>
+			<td>ON -> 5</td>
+			<td>0/1/2/3/4/5/7/8 (see Insanity Effect)</td>
+			<td>OFF -> 5/7/6/2 (see Diffuser Effect)</td>
+			<td>8</td>
+		</tr>
+		<tr>
+			<td id="act">NO<br>INTERACTION</td>
+			<td>Hunger Timer runs</td>
+			<td>Neglection Deflection ensues<br>Hunger Timer runs</td>
+			<td>All timers paused</td>
+			<td>Hunger Timer runs</td>
+			<td>Starve Timer runs</td>
+			<td>All timers paused</td>
+			<td>Insanity Timer runs<br>Insanity Effect ensues</td>
+			<td>CARDIAC Timer runs</td>
+			<td>No timers active</td>
+		</tr>
+	</table>
+
+	<!-- WRITTEN STATE MACHINE DESCRIPTION / PERSONAL REFLECTION REGARDING PROJECT -->
+
+	<h2>Mockup, Why Should I Choose You? (A Written Description)</h2>
+	<p>This question would likely make Mockup flash a static grin as his lightning-bolt headphones flicker and hum solemly as he swayed to a calm, charged, and slightly unpredictable rhythm only he could hear. As briefly mentioned in the introduction, Mockup most resembles the Pokemon Jigglypuff. In Pokemon, animal-like creatures are captured, trained, attacked, etc, and are capable of showing various feelings. This monstrosity of a machine mimics the typically unpredictable nature of Pokemon. Just like how Jigglypuff is a fairy-type Pokemon that has some quirky actions when angered and can sing in certain scenarios, Mockup is a mythical somewhat-domestic beast that is often calm and friendly, vibes to music, and has some unpredictable behaviors in certain actions and states.<br>
+	</p>
+	<p>Technically, Mockup operates as a complex finite state machine transitioning between several emotional and behavioral states (such as Scared, Happy, Insane, Hungry, or Dead) based on user interactions, internal timers, and random probabilities. Each of the 9 states represents a specific emotion and players can preform different actions (such as playing, shocking, feeding, or neglecting) to allow Mockup to transition between states. This structure supports the emotional unpredictability that I wanted Mockup to express through a mix of code logic and random behaviors, just like the way Pokemon behave.
+	</p>
+	<p>Additionally, Mockup also somewhat mimics how I felt throughout highschool. There were so many unpredictable moments that stemmed from the insane amount of pressure that I put on myself through balancing demanding classes, extracurricular activities, and volunteering. Though I was content and Vibing when completing these tasks, there were also moments where I felt I was going Insane or had so much Anger toward those who always seemed to whine and complain about the way me and my friends would manage school wide and class wide events (which is so immature and embarassing, especially as upperclassmen), but were unable to pose an alternative to make things better or even assist in these tasks to execute them more effectively. Balancing all of these conflicting thoughts and feelings forced me to mask that insanity and anger through simply smiling through the pain "Happily." Though there were some ways that I managed this stress in highschool beyond just throwing it under a rug (like listening to music, and talking with my closer friends), I truly neglected my mental health toward the latter half of my highschool career, especially my senior year.
+	</p>
+	<p>Yes, there are some parts of Mockup's back story that are greatly exagerrated in my life (like friends being killed before his very eyes). However, many of those resonate particular details highlight how I felt after graduation. I was no longer going to see my classmates, some of which I truly wanted to push away from due to their manipulative two-faced behavior that only aimed to use me for their personal gain, and others of which that grew to become some of my closest friends in just 4 short years after transitioning from a small Christian private school that I attended for 9 years. As of now, it truly feels as if we are all too busy to talk or to hang out as frequently. However, during the very few times that our schedules align and we meet up to do something together, I always come back to my bed after the meetup teary eyed, recalling how welcoming and accepting my friends are; how grateful I am that my friends not only chose me, but chose to continue to stick by me and support me through my ups and downs.
+	</p>
+	<p style="margin-bottom: 50px;">Though this isn't the "technical description" that you might have looked for in this project, it shows how I was able to portray my vivid feelings into a personal project, and I am extremely proud of the result!
+	</p>
+
+	<!-- FOOTER -->	
+	<div id="footer">
+	<footer>
+		Created by <a href="https://selinamasuo.wixsite.com/media/portfolio">Selinam Asuo</a> in Drexel University's <a href="https://www.cs.drexel.edu/~bls96">CS164 course</a> in Fall 2025 (12/05/2025)
+	</footer>
+	</div>
+</body>
